@@ -25,7 +25,7 @@ public class TapBlob : MonoBehaviour
                 {
                     if (hit.collider.CompareTag(targetTag))
                     {
-                        Debug.Log("Ein Slime-Objekt wurde angeklickt!");
+                        Debug.Log("Tap!");
                         // Insert onTap code
                         break;
                     }
@@ -50,7 +50,7 @@ public class TapBlob : MonoBehaviour
                 {
                     if (hit.collider.CompareTag(targetTag))
                     {
-                        Debug.Log("Ein Slime-Objekt wurde angeklickt!");
+                        Debug.Log("Click!");
                         // Insert onClick code
                         break;
                     }
