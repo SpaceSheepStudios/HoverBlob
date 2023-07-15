@@ -5,7 +5,6 @@ public class SlimeAttractor : MonoBehaviour
 {
     private Rigidbody[] _rigidbodies;
     public Transform centerPoint;
-    public SphereCollider sphereCollider;
     public bool innen = false;
     public float pausetime1 = 2f;
     public float pausetime2 = 4f;
